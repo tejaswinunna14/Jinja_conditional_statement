@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if age < 30 %}
+        {% if age < 15 %}
+            <h1>Like to Watch Cartoons</h1>
+        {% else %}
+            <h1>Like to play Videogames</h1>
+        {% endif %}
+    {% else %}
+        {% if age < 45 %}
+            <h1>Like to Watch Movies</h1>
+        {% else %}
+            <h1>Like to go temples and become Devotional Mood</h1>
+        {% endif %}
+    {% endif %}
+</body>
+</html>
